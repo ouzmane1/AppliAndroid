@@ -1,24 +1,26 @@
 package com.example.myapplication;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.myapplication.R;
-
-public class MainActivity extends AppCompatActivity {
+public class PartnerActivity extends AppCompatActivity {
     JSONArray jArray;
     JSONObject json_data;
     int i;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_partner);
+
         jArray=null;
         EditText rech = (findViewById(R.id.rech));
         findViewById(R.id.button).setOnClickListener(view -> {
@@ -68,5 +70,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }

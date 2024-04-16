@@ -16,13 +16,23 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".home"
+            android:name=".IdentifyActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MyApplication">
+            android:name=".PartnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaysActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProduitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_choice"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
