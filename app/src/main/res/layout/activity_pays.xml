@@ -138,25 +138,29 @@
         android:id="@+id/buttonPays2"
         android:layout_width="50dp"
         android:layout_height="36dp"
+        android:tint="@android:color/white"
         android:src="@drawable/baseline_skip_previous_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.722"
+        tools:ignore="UseAppTint" />
 
     <ImageView
         android:id="@+id/buttonPays3"
         android:layout_width="50dp"
         android:layout_height="36dp"
+        android:tint="@android:color/white"
         android:src="@drawable/baseline_skip_next_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.722"
+        tools:ignore="UseAppTint" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
